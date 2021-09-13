@@ -1,6 +1,3 @@
-Flask
 line-bot-sdk
-python-dotenv
 tweepy
-gunicorn
 schedule
