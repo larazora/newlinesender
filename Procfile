@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT linesender:app
+worker: python linesender.py
