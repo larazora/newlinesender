@@ -36,8 +36,8 @@ def menu_get():
 def main():
     schedule.every(1).day.at("06:13").do(menu_get)
     schedule.every(1).day.at("11:26").do(menu_get)
-    schedule.every(1).day.at("17:10").do(menu_get)
-    schedule.every(1).day.at("17:09").do(menu_get)
+    schedule.every(1).day.at("17:14").do(menu_get)
+    schedule.every(1).day.at("17:15").do(menu_get)
     print("start!")
 
     while True:
