@@ -1,1 +1,1 @@
-worker: python linesender.py
+worker: python newlinesender.py
